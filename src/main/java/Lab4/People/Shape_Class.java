@@ -3,9 +3,7 @@ package Lab4.People;
 public class Shape_Class {
 
     private String color;
-
     private FillType fill_type;
-
 
     public Shape_Class(String color, FillType fill_type) {
         this.color = color;

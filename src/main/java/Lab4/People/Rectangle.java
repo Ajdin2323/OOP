@@ -19,5 +19,4 @@ public class Rectangle extends Shape_Class{
         System.out.println(this.a + this.b + super.getColor() + this.getArea());
     }
 
-
 }

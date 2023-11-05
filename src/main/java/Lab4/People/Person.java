@@ -4,31 +4,26 @@ public class Person {
     private String name;
     private String adress;
 
-    private int age;
-    private String country;
-
 
     public Person(String name, String adress) {
         this.name = name;
         this.adress = adress;
-        this.age = age;
-        this.country = country;
     }
 
-    public int getAge() {
-        return age;
+    public String getName() {
+        return name;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getCountry() {
-        return country;
+    public String getAdress() {
+        return adress;
     }
 
-    public void setCountry(String country) {
-        this.country = country;
+    public void setAdress(String adress) {
+        this.adress = adress;
     }
 
     @Override
